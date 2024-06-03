@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.source   = { :git => 'https://github.com/nauphone/WKWebViewRTC.git', :tag => '0.6.3'}
-  s.source_files = 'WKWebViewRTC/Classes/**/*'
-  s.resources = 'WKWebViewRTC/Js/jsWKWebViewRTC.js'
+  s.source_files = 'Sources/WKWebViewRTC/Classes/**/*'
+  s.resources = 'Sources/WKWebViewRTC/Js/jsWKWebViewRTC.js'
 
   s.dependency 'WebRTC-lib', '~> 114.0.0'
 
